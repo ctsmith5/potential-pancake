@@ -13,11 +13,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        partyOn()
+        breakDance()
     }
     
-    func partyOn(){
+    func partyOn() {
         print("We are partying on the Git")
     }
 
+    func breakDance() {
+        print("Gettin Down to the Beat!")
+    }
 }
 
