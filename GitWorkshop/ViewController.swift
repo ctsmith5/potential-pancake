@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         partyOn()
         breakDance()
+        djDropsTheBass()
     }
     
     func partyOn() {
@@ -23,6 +24,11 @@ class ViewController: UIViewController {
 
     func breakDance() {
         print("Gettin Down to the Beat!")
+    }
+    
+    
+    func djDropsTheBass() {
+        print("Now the bass has been officially dropped in the NewFeatures Branch")
     }
 }
 
