@@ -9,7 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var String = "This is an intitial property set in OtherNewFeatures Branch"
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,5 +33,7 @@ class ViewController: UIViewController {
     func djDropsTheBass() {
         print("Now the bass has been officially dropped in the NewFeatures Branch")
     }
+    
+    
 }
 
