@@ -34,6 +34,8 @@ class ViewController: UIViewController {
         print("Now the bass has been officially dropped in the NewFeatures Branch")
     }
     
-    
+    func dropWisdom() {
+        print("With great power comes great responsibility")
+    }
 }
 
